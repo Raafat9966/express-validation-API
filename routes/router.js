@@ -1,7 +1,3 @@
-// const router = require("express").Router();
-// const users = require("../controllers/users");
-// const { userValidationRules, validate } = require("../middleware/validator");
-
 import express from "express";
 import users from "../controllers/users.js";
 import { userValidationRules, validate } from "../middleware/validator.js";

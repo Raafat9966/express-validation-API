@@ -3,8 +3,8 @@
 
 import express from "express";
 import router from "./routes/router.js";
-import dotenv from "dotenv";
-dotenv.config();
+import "dotenv/config.js";
+
 import "./lib/db.js";
 import errorHandler from "./middleware/errorHandler.js";
 

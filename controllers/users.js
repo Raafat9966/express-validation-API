@@ -1,4 +1,3 @@
-// const db = require("../models/user");
 import db from "../models/user.js";
 
 const getAll = async (req, res, next) => {
